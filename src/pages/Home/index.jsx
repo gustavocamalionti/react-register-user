@@ -39,22 +39,6 @@ function Home() {
     getUsers();
   }, []);
 
-  const usersTest = [
-    {
-      id: "1213asd413ads321",
-      name: "Rodolfo",
-      age: 24,
-      email: "rod@gmail.com",
-    },
-    { id: "fdlak41lkadf", name: "Aline", age: 18, email: "aline2@gmail.com" },
-    {
-      id: "1233123dadas",
-      name: "Rogério",
-      age: 34,
-      email: "rogerio@gmail.com",
-    },
-  ];
-
   return (
     <div className="container">
       <form action="">
@@ -67,7 +51,7 @@ function Home() {
         </button>
       </form>
 
-      {usersTest.map((user) => {
+      {users.map((user) => {
         return (
           <div key={user.id} className="card">
             <div>
