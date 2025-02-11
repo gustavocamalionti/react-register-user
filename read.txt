@@ -1,0 +1,9 @@
+1. Iniciando
+   - React é uma biblioteca
+   - Precisa apenas ter instalado na máquina o NPM para poder adicionar react ao projeto. < npm i react >
+   - Não iremos fazer da forma acima, pois precisariamos adicionar lib a lib para rodar o react do zero.
+   - Dessa forma, vamos instalar o react através do vite, um pacote inicial bem legal. < npm create vite@latest >
+   - Para instalar as dependências, precisa rodar o < npm install >
+2. Rodar o projeto
+   - Confira no package.json, porém basta digitar no terminal < npm run dev > 
+   - instale o axios para facilitar a conexão de API com front-end < npm i axios >
